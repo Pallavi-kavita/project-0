@@ -1,0 +1,138 @@
+
+body {
+	background-color:white;
+	
+}
+#header {
+	
+	
+   left:8px;
+	width:100%;
+	color:white;
+	background:dimgray ;
+    padding:20px;
+    font-weight: bolder;
+    font-size: 30px;
+   
+}
+#footer {
+	
+	
+	left:0px;
+	width:100%;
+	color:white;
+	background:dimgray;
+    padding:10px;
+    font-weight: bolder;
+    font-size: 20px;
+   
+}
+
+nav{
+    margin-top: 20px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: coral;
+  
+  
+}
+li a {
+	
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+ nav li {
+	float: left;
+  }
+  li a:hover {
+	background-color: rgb(77, 15, 0);
+  }
+#img {
+   margin-top: 50px;
+   
+   
+}
+
+#p1{
+    color:brown;
+}
+
+#p2{
+    color:rgb(9, 66, 80);
+}
+
+.pallu{
+
+    color: red;
+    font-weight: bold;
+}
+
+.jain{
+
+    color: blue;
+    font-weight: bold;
+}
+
+ol  >li{
+    color: royalblue;
+    list-style: 1px solid black;
+}
+
+span{
+    background-color: cyan;
+}
+
+li{
+ color: salmon;
+}
+
+h1{
+    color: saddlebrown;
+}
+
+h4{
+    color: saddlebrown;
+}
+
+table,th,td{
+
+    margin-top: 5px;
+    border-spacing: 5px;
+    border:1px solid black;
+    background-color: #95afd1;
+}
+
+@media (min-width:500px) {
+    table{
+        color: red;
+    }
+
+}
+
+@media (max-width:800px) {
+    table{
+        color:blue;
+    }
+
+}
+
+
+
+  
+ 
+ 
+    
+    div.grow img:hover{
+   
+    transform: scale(1.1);
+    transition: 1s ease;
+    box-shadow: 5px 5px 2px rgb(241, 9, 9);
+    }
+  
+  
+  
